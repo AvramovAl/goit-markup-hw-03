@@ -32,9 +32,9 @@ body {
   text-decoration: none;
 }
 
-.section-title {
+/* .section-title {
   margin: 0;
-}
+} */
 
 /* -----Хедер----- */
 /* -----Лого----- */
@@ -358,11 +358,17 @@ body {
 .card {
   display: flex;
   flex-wrap: wrap;
-  width: calc((100% - 60px) / 3);
+  justify-content: space-between;
+  /* width: calc((100% - 60px) / 3); */
 }
 
 .card-item {
   width: 370px;
+  margin-bottom: 30px;
+}
+
+.card-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 .heading-card {
@@ -379,4 +385,9 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+
+.card-sign {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
