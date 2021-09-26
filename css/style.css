@@ -45,7 +45,6 @@ img {
 .head-nav {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .nav-logo {
@@ -152,13 +151,14 @@ img {
 .promo {
   background-color: var(--footer-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .h1 {
   display: block;
   width: 696px;
   margin: 0 auto;
-  padding-top: 200px;
 
   color: var(--h1-color);
   font-weight: 900;
@@ -179,7 +179,6 @@ img {
   padding-left: 32px;
   min-width: 200px;
   margin-top: 30px;
-  margin-bottom: 200px;
 
   background-color: var(--accent-color);
   color: var(--h1-color);
@@ -196,11 +195,13 @@ img {
 
 /* Особенности */
 
+.features {
+  padding-top: 94px;
+}
+
 .futures-section {
   display: flex;
   justify-content: space-between;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 /* .futures-list + .futures-list {
@@ -218,6 +219,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .features-p {
@@ -229,11 +231,15 @@ img {
 
 /* Чем занимаемся */
 
+.activity {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-product {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
-  padding-bottom: 94px;
+  margin-top: 50px;
 }
 
 .title-section {
@@ -249,10 +255,16 @@ img {
 
 /* Команда */
 
-.team .title-section {
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--background-filter);
+}
+
+/* .team .title-section {
   padding-top: 94px;
   padding-bottom: 50px;
-}
+} */
 
 .title-team {
   padding-top: 30px;
@@ -269,8 +281,8 @@ img {
 .section-team {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
   text-align: center;
+  margin-top: 50px;
 }
 
 .team-list {
@@ -293,18 +305,18 @@ img {
 
 .footer {
   background-color: var(--footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .logo {
   display: block;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .address-list {
   display: flex;
   flex-direction: column;
-  padding-bottom: 60px;
 }
 
 .address-contact {
@@ -313,6 +325,10 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.map {
+  color: var(--h1-color);
 }
 
 .address-list .address-item + .address-item {
@@ -326,11 +342,16 @@ img {
 
 /* Плитки второй страницы */
 
+.card-container {
+  border-top: 1px solid #ececec;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .filter-list {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .btn-filter {
@@ -369,7 +390,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 94px;
   /* width: calc((100% - 60px) / 3); */
 }
 
@@ -389,7 +409,6 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   margin: 0;
-  padding-top: 20px;
 }
 
 .description-card {
@@ -399,11 +418,12 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   margin: 0;
-  padding-bottom: 20px;
 }
 
 .card-sign {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  padding-top: 20px;
   padding-left: 24px;
+  padding-bottom: 20px;
 }
