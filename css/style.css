@@ -414,14 +414,17 @@ img {
 }
 
 .card-set .item {
-  flex-basis: calc(100% / 4 - var(--card-set-gap));
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-top: var(--card-set-gap);
   margin-left: var(--card-set-gap);
+  display: flex;
+  flex-direction: column;
 }
 
 .card-content {
   border: 1px solid #eeeeee;
   padding: 20px 24px;
+  height: 100%;
 }
 
 .card-content .title {
